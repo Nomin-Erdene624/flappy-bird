@@ -1,0 +1,34 @@
+.game{
+	width:500px;
+	height:600px;
+	border:2px solid #e1e1e1;
+	position:absolute;
+}
+.sky{
+	background-image:url('https://e0.pxfuel.com/wallpapers/488/135/desktop-wallpaper-flappy-bird-background.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:500px;
+	height:480px;
+	position:absolute;
+}
+.ground{
+	background-image:url('https://kevinmongiello.github.io/flappybird/bin/pics/ground_chopped.png');
+	width:500px;
+	height:120px;
+	position:absolute;
+	top:480px;
+	z-index:5;
+}
+.bird{
+	width:60px;
+	height:45px;
+	background-image:url("");
+	position:absolute;
+}
+.block{
+	background-color:green;
+	width:60px;
+	height:300px;
+	position:absolute;
+}
